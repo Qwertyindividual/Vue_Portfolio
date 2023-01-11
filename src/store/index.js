@@ -40,7 +40,7 @@ export default createStore({
         id:4,
         name:'Ryan Thomas',
         relation: 'Lecturer',
-        testimonial: 'Muddathir has a very broad understanding of coding and is able to adapt to any situation seemingly with ease. It is easy to see that a lot of work is put into understanding concepts and applying them in his tasks. He works well with others, is great to be around and is an all out great guy. I believe that he will be an asset to anyone that hires him.',
+        testimonial: 'Kauthar is not only a great student, but also a good help amongst her peers.Her ability to assist her peers with various issues while handling her own is admirable and shows her strength while learning and her ability to take what she\'s learnt and use it to it\'s fullest potential. She also has a good sense of humor and a bubbly personality.',
         links:{
           github: '',
           socials: ''
