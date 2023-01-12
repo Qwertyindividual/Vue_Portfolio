@@ -2,6 +2,52 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
+    projects: [
+       {
+        id:1,
+        title:'Netflix Clone',
+        tools:'CSS 3/HTML 5',
+        description:'This project is a combination of HTML5 and CSS3.',
+        links:{
+          github: 'https://github.com/Qwertyindividual/Netflix.git',
+          live: 'https://dashing-biscuit-bf655d.netlify.app'
+        },
+        image: 'https://i.postimg.cc/sgGwdNSZ/netflix.png'
+       },
+       {
+        id:2,
+        title:'E-commerce',
+        tools:'CSS 3/HTML 5/Javascript',
+        description:'This project is a combination of HTML5, CSS3 and JavaScript.',
+        links:{
+          github: 'https://github.com/Qwertyindividual/JavascriptProject.git',
+          live: 'https://kautharjavascripteomp.netlify.app'
+        },
+        image: 'https://i.postimg.cc/HWPwYtT0/ecommerce.png'
+       },
+       {
+        id:3,
+        title:'Calculator',
+        tools:'CSS 3/HTML 5/JavaScript',
+        description:'This project is a combination of HTML5,CSS3 and JavaScript.',
+        links:{
+          github: 'https://github.com/Qwertyindividual/Calculator.git',
+          live: 'https://kautharcalculator.netlify.app'
+        },
+        image: 'https://i.postimg.cc/zDMhZXk0/calculator-pic.png'
+       },
+       {
+        id:4,
+        title:'First Portfolio',
+        tools:'CSS 3/HTML 5',
+        description:'This project is a combination of HTML5 and CSS3.',
+        links:{
+          github: 'https://github.com/Qwertyindividual/End-of-module-project.git',
+          live: 'https://kauthar.netlify.app'
+        },
+        image: 'https://i.postimg.cc/fTQS8qCb/portfolio-pic.png'
+       },
+    ],
     testimonials:[
       {
         id:1,
@@ -12,7 +58,7 @@ export default createStore({
           github: '',
           socials: ''
         },
-        profile_img: '',
+        profile_img: 'https://i.postimg.cc/qvJrw9Tf/cutee.png',
       },
       {
         id:2,
@@ -23,7 +69,7 @@ export default createStore({
           github: '',
           socials: ''
         },
-        profile_img: '',
+        profile_img: 'https://i.postimg.cc/qvJrw9Tf/cutee.png',
       },
       {
         id:3,
@@ -34,7 +80,7 @@ export default createStore({
           github: '',
           socials: ''
         },
-        profile_img: '',
+        profile_img: 'https://i.postimg.cc/qvJrw9Tf/cutee.png',
       },
       {
         id:4,
@@ -45,7 +91,7 @@ export default createStore({
           github: '',
           socials: ''
         },
-        profile_img: '',
+        profile_img: 'https://i.postimg.cc/qvJrw9Tf/cutee.png',
       },
       {
         id:5,
@@ -56,7 +102,7 @@ export default createStore({
           github: '',
           socials: ''
         },
-        profile_img: '',
+        profile_img: 'https://i.postimg.cc/qvJrw9Tf/cutee.png',
       }             
     ],
     resume:[

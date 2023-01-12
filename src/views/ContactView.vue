@@ -1,54 +1,19 @@
 <template>
-    <div>
-    <section class="contact section-padding bg-black" id="contact">
-    <Animated-background5 />
-		<div class="container mt-5 mb-5">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-header text-center pb-5">
-						<h2>Contact Me</h2>
-						<div class="social d-flex justify-content-center">
-							<a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
-							<a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-							<a href="https://github.com/Qwertyindividual"><i class="fa-brands fa-github"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row m-0">
-				<div class="col-md-12 p-0 pt-4 pb-4">
-					
-					<form action="https://formspree.io/f/xdojpryw" method="POST" id="form">
-
-						<label for="fname" id="labels">Your Name</label>
-						<input type="text" id="fname" id="form" name="firstname" placeholder="Your name..">
-					
-						<label for="cname" id="labels">Company Name</label>
-						<input type="text" id="cname" name="companyname" placeholder="Your company name..">
-					
-						<label for="email" id="labels">Your Email</label>
-						<input type="text" id="email" name="email" placeholder="Your email..">
-					
-						<label for="message" id="labels">Message</label>
-						<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-					
-						<input type="submit" id="button" value="Submit">
-					
-					  </form>
-				</div>
-			</div>
-		</div>
-	</section>
-    </div>
+	<Animated-background51 />
+    
 </template>
 
 <script>
-import AnimatedBackground5 from '@/components/AnimatedBackground5.vue'
+import AnimatedBackground51 from '@/components/AnimatedBackground51.vue'
+import AOS from 'aos'
 
     export default {
         components: {
-            AnimatedBackground5
-        }
+            AnimatedBackground51
+        },
+		mounted() {
+            AOS.init();
+  }
     }
 </script>
 

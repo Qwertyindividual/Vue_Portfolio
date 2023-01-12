@@ -70,9 +70,204 @@
             </div>
           </li>
           </ul>
-      </div>
-      </div>
+          
+          <div class="container">
+            <div class="row">
+               <div class="col-md-5">
+                <img src="../assets/img/vue-icon.png" alt="">
+              </div>
+              <div class="col-md-7" style="text-align: center;"> 
+                <h1 class="text-white">About Me</h1>
+                <div>
+                  <h2 class="text-white">Biography</h2>
+                  <p class="text-white">Im an intruiged individual who has to understand everything. This determination has developed me into a creative and hardowrking person who enjoys a challenge and isn't afraid to experiment. I have no problem working in group projects as it allows me to grow more personally, in fact i encourage it. <br>
+                    Hobbies/Interests:</p>
+                    <ul>
+                      <div>
+                        <li class="text-white">Experimenting</li>
+                        <li class="text-white">Sketching</li>
+                      </div>
+                      <div>
+                        <li class="text-white">Watching Anime</li>
+                        <li class="text-white">Cooking</li>
+                      </div>
+                    </ul>              
+                  </div>
+                </div>
+                </div>
+                </div>
+    
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h5>Technical skills</h5>
+                
+                
+                <div class="row pb-2">
+                  <div class="col-6"><p class="progresstext">
+                    HTML
+                    <span id="nbr">%</span></p>
+                    <div class="progress bg-white" style="height: 8px;">
+                      <div class="progress-bar" style="width:80%; height: 8px;"></div>
+                    </div>               
+                  </div>
+                </div>
+                
+                
+                <div class="row py-2">
+                  <div class="col-6"><p class="progresstext">
+                    CSS
+                    <span id="nbr2">%</span></p>
+                    <div class="progress bg-white" style="height: 8px;">
+                      <div class="progress-bar" style="width:90%; height: 8px;"></div>
+                    </div>               
+                  </div>
+                </div>
+                
+                
+                <div class="row py-2">
+                  <div class="col-6"><p class="progresstext">
+                    Bootstrap
+                    <span id="nbr3">%</span></p>
+                    <div class="progress bg-white" style="height: 8px;">
+                      <div class="progress-bar" style="width:100%; height: 8px;"></div>
+                    </div>               
+                  </div>
+                </div>
+                
+                
+                <div class="row py-2">
+                  <div class="col-6"><p class="progresstext">
+                    JavaScript
+                    <span id="nbr4">%</span></p>
+                    <div class="progress bg-white" style="height: 8px;">
+                      <div class="progress-bar" style="width:55%; height: 8px;"></div>
+                  </div>               
+                </div>
+              </div>
+              
+              
+              <div class="row py-2">
+                <div class="col-6"><p class="progresstext">
+                  Vue
+                  <span id="nbr5">%</span></p>
+                  <div class="progress bg-white" style="height: 8px;">
+                    <div class="progress-bar" style="width:70%; height: 8px;"></div>
+                  </div>               
+                </div>
+              </div>
+           </div>   
+              
+              
+              <div class="row py-2">
+                <div class="col-6"><p class="progresstext">
+                  Node.js
+                  <span id="nbr6">%</span></p>
+                  <div class="progress bg-secondary" style="height: 8px;">
+                    <div class="progress-bar" style="width:80%; height: 8px;"></div>
+                  </div>               
+                </div>
     </div>
+    <div class="col">
+      <h5>Soft Skills</h5>
+                  <ul>
+                    <li class="text-white">Problem-solving</li>
+                    <li class="text-white">Time Management</li>
+                    <li class="text-white">Stress Management</li>
+                    <li class="text-white">Adaptability</li>
+                    <li class="text-white">Active Listener</li>
+                    <li class="text-white">Team Player Attitude</li>
+                  </ul>
+    </div>
+  </div>
+</div>
+            <!-- <div class="container">
+            <div class="row" >
+              <div class="col-lg-6">
+                <h5>Technical skills</h5>
+                
+                
+                <div class="row pb-2">
+                  <div class="col-12"><p class="progresstext">
+                    HTML
+                    <span id="nbr">%</span></p>
+                    <div class="progress bg-white" style="height: 8px;">
+                      <div class="progress-bar" style="width:80%; height: 8px;"></div>
+                    </div>               
+                  </div>
+                </div>
+                
+                
+                <div class="row py-2">
+                  <div class="col-12"><p class="progresstext">
+                    CSS
+                    <span id="nbr2">%</span></p>
+                    <div class="progress bg-white" style="height: 8px;">
+                      <div class="progress-bar" style="width:90%; height: 8px;"></div>
+                    </div>               
+                  </div>
+                </div>
+                
+                
+                <div class="row py-2">
+                  <div class="col-12"><p class="progresstext">
+                    Bootstrap
+                    <span id="nbr3">%</span></p>
+                    <div class="progress bg-white" style="height: 8px;">
+                      <div class="progress-bar" style="width:100%; height: 8px;"></div>
+                    </div>               
+                  </div>
+                </div>
+                
+                
+                <div class="row py-2">
+                  <div class="col-12"><p class="progresstext">
+                    JavaScript
+                    <span id="nbr4">%</span></p>
+                    <div class="progress bg-white" style="height: 8px;">
+                      <div class="progress-bar" style="width:55%; height: 8px;"></div>
+                  </div>               
+                </div>
+              </div>
+              
+              
+              <div class="row py-2">
+                <div class="col-12"><p class="progresstext">
+                  Vue
+                  <span id="nbr5">%</span></p>
+                  <div class="progress bg-white" style="height: 8px;">
+                    <div class="progress-bar" style="width:70%; height: 8px;"></div>
+                  </div>               
+                </div>
+              </div>
+           </div>   
+              
+              
+              <div class="row py-2">
+                <div class="col-12"><p class="progresstext">
+                  Node.js
+                  <span id="nbr6">%</span></p>
+                  <div class="progress bg-secondary" style="height: 8px;">
+                    <div class="progress-bar" style="width:80%; height: 8px;"></div>
+                  </div>               
+                </div>
+                
+                <div class="col-lg-6">
+                  <h5>Soft Skills</h5>
+                  <ul>
+                    <li class="text-white">Problem-solving</li>
+                    <li class="text-white">Time Management</li>
+                    <li class="text-white">Stress Management</li>
+                    <li class="text-white">Adaptability</li>
+                    <li class="text-white">Active Listener</li>
+                    <li class="text-white">Team Player Attitude</li>
+                  </ul>
+                </div> -->
+                
+          </div>     
+        </div>
+      </div>
 </template>
 
 <script>
@@ -86,7 +281,7 @@
     background: linear-gradient(to bottom right, black, rgba(0, 255, 229, 0.4));
     background:fixed;
     width:100%;
-    height: 100vh;
+    height: 1000px;
     background: black;
 }
 .box-area{
@@ -95,7 +290,7 @@
     left:0;
     width:100%;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .box-area li{
     position: absolute;
@@ -218,4 +413,14 @@
     0 0 400px rgba(0, 255, 0, 0.8)
     0 0 500px rgba(0, 255, 0, 0.1);
 }
+img {
+  height: auto;
+  width: 100%;
+  
+}
+
+h5 {
+  color: rgb(0, 238, 171);
+}
+
 </style>

@@ -86,7 +86,7 @@
     background: linear-gradient(to bottom right, black, rgba(34, 255, 0, 0.4));
     background:fixed;
     width:100%;
-    height: 100vh;
+    height: 1000px;
     background: black;
 }
 .box-area{
@@ -95,7 +95,7 @@
     left:0;
     width:100%;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .box-area li{
     position: absolute;

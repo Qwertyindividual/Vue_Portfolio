@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavBar />
     <AnimatedBackground5 />
     
   </div>
@@ -8,16 +7,18 @@
 
 <script>
 
-import Footer from '@/components/Footer.vue'
+
 import AnimatedBackground5 from '@/components/AnimatedBackground5.vue'
-
-
+import AOS from 'aos'
 
 export default {
+
   name: 'HomeView',
   components: {
-    Footer,
     AnimatedBackground5
+  },
+  mounted() {
+    AOS.init();
   }
 }
 </script>

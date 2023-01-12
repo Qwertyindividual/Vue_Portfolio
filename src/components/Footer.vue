@@ -2,8 +2,7 @@
     <footer>
       <div class="d-flex justify-content-between">
         <div class="Start">
-            <div class="d-flex">
-                <img src="../assets/img/vue-icon.png" alt="" w>
+            <div>
             <h4 class="pb-3 p-2">Kauthar <span>Brandt</span></h4>
             </div>
             <div class="footer-navbar">
@@ -62,7 +61,7 @@
 
 <style scoped>
 footer {
-    background-color: black;
+    background: linear-gradient(to right, red, blue, green, orange, purple);
     padding: 60px;
 }
 

@@ -7,11 +7,15 @@
 <script>
 
 import AnimatedBackground3 from '@/components/AnimatedBackground3.vue'
+import AOS from 'aos'
 
     export default {
         components: {
             AnimatedBackground3
-        }
+        },
+        mounted() {
+        AOS.init();
+  }
     }
 </script>
 

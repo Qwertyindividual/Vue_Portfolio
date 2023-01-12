@@ -1,14 +1,50 @@
 <template>
-    <div class ="animation-area">
+  <div class ="animation-area">
         <div class="overall">
-          <div class="position-absolute top-50 start-50 translate-middle text-white" data-aos="fade-up"
-     data-aos-anchor-placement="center-center">
-            <h1>Kauthar Brandt</h1>
-          <p>Aspire to become a FullStack Developer</p>
-          </div>
           
-      
-          <div class="welcome">
+          
+		<!-- <div class="container mt-5 mb-5">
+			<div class="row">
+				<div class="col-md-12 col-4">
+					<div class="section-header text-center pb-5">
+						<h2>Contact Me</h2>
+						<div class="social d-flex justify-content-center">
+							<a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+							<a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+							<a href="https://github.com/Qwertyindividual"><i class="fa-brands fa-github"></i></a>
+						</div>
+					</div>
+				</div>
+			</div> -->
+      <!-- <section class="contact section-padding bg-black" id="contact">
+			<div class="row m-0">
+				<div class="col-md-12 p-0 pt-4 pb-4"> -->
+          <form action="https://formspree.io/f/xdojpryw" method="POST" id="form">
+					
+          <label for="fname" id="labels">Your Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+          <label for="cname" id="labels">Company Name</label>
+          <input type="text" id="cname" name="companyname" placeholder="Your company name..">
+          
+          <label for="email" id="labels">Your Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+          
+          <label for="message" id="labels">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+          
+          <input type="submit" id="button" value="Submit">
+          
+          </form>
+					
+
+</div>
+</div>
+		<!-- </div>
+	</section> -->
+
+  
+          
       <ul class ="box-area">
           <li>
             <div class="cube">
@@ -77,15 +113,15 @@
             </div>
           </li>
           </ul>
-      </div>
-      </div>
-    </div>
+      <!-- </div>
+      </div> -->
+
 </template>
 
 <script>
-    export default {
-        name: "AnimatedBackground5"
-    }
+  export default {
+    
+  }
 </script>
 
 <style scoped>
@@ -93,7 +129,7 @@
     background: linear-gradient(to bottom right, black, rgba(255, 0, 0, 0.4));
     background:fixed;
     width: 100%;
-    height: 100vh;
+    height: 1000px;
     background: black;
 }
 .box-area{
@@ -102,7 +138,7 @@
     left:0;
     width:100%;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .box-area li{
     position: absolute;
@@ -296,5 +332,9 @@ input[type=text], select, textarea {
 .social a:hover{
     transform: scale(1.3);
     transition: .3s;
+}
+
+form {
+  z-index: 1;
 }
 </style>
