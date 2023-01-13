@@ -1,5 +1,5 @@
 <template>
-  <!-- <NavBar /> -->
+  <NavBar/>
   <router-view></router-view>
   <Footer/>
  
@@ -25,5 +25,7 @@ body {
 
 background-color: black;
 }
+
+
 
 </style>

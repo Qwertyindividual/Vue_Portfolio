@@ -1,10 +1,7 @@
 <template>
     <div>
     <Animated-background1 />
-
-
-    <!-- v-for="testimonial in testimonials" :key="testimonial" :testimonial="testimonial -->
-  
+    <TestimonialCard />
     </div>
 </template>
 

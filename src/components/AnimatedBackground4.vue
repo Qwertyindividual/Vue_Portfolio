@@ -76,7 +76,11 @@
 </template>
 
 <script>
+
     export default {
+      components: {
+       
+      }
         
     }
 </script>
@@ -88,6 +92,7 @@
     width:100%;
     height: 1000px;
     background: black;
+    /* position: fixed; */
 }
 .box-area{
     position: absolute;

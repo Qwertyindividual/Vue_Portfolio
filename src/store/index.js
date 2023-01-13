@@ -55,10 +55,10 @@ export default createStore({
         relation: 'Colleague',
         testimonial: 'In the 2 months I have worked with Kauthar, it is clear that she is  a very hard-working, compassionate person. She never hesitates to help others and once she is faced with an issue, she will work at it until it is solved.',
         links:{
-          github: '',
+          github: 'https://github.com/aliyahdutoit',
           socials: ''
         },
-        profile_img: 'https://i.postimg.cc/qvJrw9Tf/cutee.png',
+        image: 'https://i.postimg.cc/TPBKQ3y1/aliyah.jpg',
       },
       {
         id:2,
@@ -66,10 +66,10 @@ export default createStore({
         relation: 'Colleague',
         testimonial: 'Kauthar is really fun, interesting and full-hearted person. She\'s so friendly, honest and lovely to be around. She is shy at first but as you get to know her, she becomes more comfortable with you. She\'s also kind, caring and a good judge of character.',
         links:{
-          github: '',
+          github: 'https://github.com/ImraanBernksen',
           socials: ''
         },
-        profile_img: 'https://i.postimg.cc/qvJrw9Tf/cutee.png',
+        image: 'https://i.postimg.cc/LXLyXGtQ/imraan.jpg',
       },
       {
         id:3,
@@ -80,7 +80,7 @@ export default createStore({
           github: '',
           socials: ''
         },
-        profile_img: 'https://i.postimg.cc/qvJrw9Tf/cutee.png',
+        image: 'https://i.postimg.cc/pLN8qyz7/candiuce.jpg',
       },
       {
         id:4,
@@ -91,18 +91,29 @@ export default createStore({
           github: '',
           socials: ''
         },
-        profile_img: 'https://i.postimg.cc/qvJrw9Tf/cutee.png',
+        image: 'https://i.postimg.cc/tJK1SmZP/ryan.jpg',
       },
       {
         id:5,
         name:'Seaba Mafestire',
         relation: 'Colleague',
-        message: 'Kauthar is a free spirit who works hard to achieve her goals and puts her all in her work and a good team player.',
+        testimonial: 'Kauthar is a free spirit who works hard to achieve her goals and puts her all in her work and a good team player.',
         links:{
-          github: '',
-          socials: ''
+          github: 'seabaraven@gmail.com',
+          socials: 'seabaraven@gmail.com'
         },
-        profile_img: 'https://i.postimg.cc/qvJrw9Tf/cutee.png',
+        image: 'https://i.postimg.cc/rmbN1TTN/seaba.jpg',
+      },           
+      {
+        id:6,
+        name:'Keren Bruce',
+        relation: 'Colleague',
+        testimonial: 'Kauthar is a determined and energetic worker who strives to achieve her goals in the most efficient way possible . Her personality lights up any conversation she participates in and is surely a lovely presence to have in the workplace .',
+        links: {
+          github: 'https://github.com/kerenkittybruce',
+          socials: 'https://www.instagram.com/kerenkittybruce/'
+        },
+        image: 'https://i.postimg.cc/Xv0QF8nD/keren.jpg',
       }             
     ],
     resume:[
