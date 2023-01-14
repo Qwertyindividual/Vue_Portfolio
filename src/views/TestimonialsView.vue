@@ -1,19 +1,17 @@
 <template>
-    <div>
-    <Animated-background1 />
-    <TestimonialCard />
-    </div>
+    <Testimonial />
+    <TestimonialCard/>
 </template>
 
 <script>
 
-import AnimatedBackground1 from '@/components/AnimatedBackground1.vue'
+import Testimonial from '@/components/Testimonial.vue'
 import TestimonialCard from '@/components/TestimonialCard.vue'
 import AOS from 'aos'
 
     export default {
        components: {
-        AnimatedBackground1,
+        Testimonial,
         TestimonialCard
        },
        computed: {

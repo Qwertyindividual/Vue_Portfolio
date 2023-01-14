@@ -74,7 +74,7 @@ export default createStore({
       {
         id:3,
         name:'Candice Amon',
-        relation: '',
+        relation: 'AUM',
         testimonial: 'Kauthar loves to work on her own. Has the ability to engage very well. She has the willingness to push herself out of her comfort zone in order to grow in all aspects.',
         links:{
           github: '',

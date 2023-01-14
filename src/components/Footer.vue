@@ -3,40 +3,40 @@
       <div class="d-flex justify-content-between">
         <div class="Start">
             <div>
-            <h4 class="pb-3 p-2">Kauthar <span>Brandt</span></h4>
+            <h4 class="pb-3 p-2 text-black">Kauthar <span>Brandt</span></h4>
             </div>
             <div class="footer-navbar">
-                <router-link class="text-decoration-none" to="/">Home</router-link> |
-                <router-link class="text-decoration-none" to="/about">About</router-link> |
-                <router-link class="text-decoration-none" to="/resume">Resume</router-link> |
-                <router-link class="text-decoration-none" to="/projects">Projects</router-link> |
-                <router-link class="text-decoration-none" to="/testimonials">Testimonials</router-link> |
-                <router-link class="text-decoration-none" to="/contact">Contact</router-link>
+                <router-link class="text-decoration-none" to="/"><a>HOME</a></router-link> |
+                <router-link class="text-decoration-none" to="/about"><a>ABOUT</a></router-link> |
+                <router-link class="text-decoration-none" to="/resume"><a>RESUME</a></router-link> |
+                <router-link class="text-decoration-none" to="/projects"><a>PROJECTS</a></router-link> |
+                <router-link class="text-decoration-none" to="/testimonials"><a>TESTIMONIALS</a></router-link> |
+                <router-link class="text-decoration-none" to="/contact"><a>CONTACT</a></router-link>
             </div>
         </div>
 		<div class="Center">
             <div class="">
                 <i class="fa-solid fa-location-pin"></i>
-                <p>Mitchells Plain, Cape Town</p>
+                <p class="fw-bold text-white">Mitchells Plain, Cape Town</p>
             </div>
             <div class="">
                 <i class="fa-solid fa-phone"></i>
-                <p>0736164107</p>
+                <p class="fw-bold text-white">0736164107</p>
             </div>
             <div>
                 <i class="fa-solid fa-envelope"></i>
-                <p>brandtkauthar@gmail.com</p>
+                <p class="fw-bold text-white">brandtkauthar@gmail.com</p>
             </div>
 		</div>
         <div class="End">
            <p>
-            <span>About Me</span><br/>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            <span class="fw-bold">About Me</span><br/>
+            Aspire to become FullStack Developer.
            </p>
            <div class="footer-socials">
             <a href="https://github.com/Qwertyindividual" target="_blank"><i class="fa-brands fa-github"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin" target="_blank"></i></a>
-            <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/kauthar-brandt-6a3838219/"><i class="fa-brands fa-linkedin" target="_blank"></i></a>
+            <a href="https://www.instagram.com/kauthar_fire/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
            </div>
 
         </div>
@@ -66,7 +66,7 @@ footer {
 }
 
 .router-link-exact-active {
-  color: #42b983;
+  color: green;
 } 
 
 .footer-socials i {
@@ -74,10 +74,8 @@ footer {
     color: white;
 
 }
-
-img {
-    width: 50px;
-    height: 50px;
-}
+ a{
+ color:white;
+ }
 
 </style>

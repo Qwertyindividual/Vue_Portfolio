@@ -1,17 +1,17 @@
 <template>
   <div>
-  <AnimatedBackground2 />
+  <About />
   </div>
 </template>
 
 <script>
 
-import AnimatedBackground2 from '@/components/AnimatedBackground2.vue'
+import About from '@/components/About.vue'
 import AOS from 'aos'
 
   export default {
     components: {
-      AnimatedBackground2
+      About
     },
     mounted() {
     AOS.init();

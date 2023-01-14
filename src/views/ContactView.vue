@@ -1,31 +1,14 @@
 <template>
-	<Animated-background51 />
-  <form action="https://formspree.io/f/xdojpryw" method="POST" id="form">
-
-<label for="fname" id="labels">Your Name</label>
-<input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-<label for="cname" id="labels">Company Name</label>
-<input type="text" id="cname" name="companyname" placeholder="Your company name..">
-
-<label for="email" id="labels">Your Email</label>
-<input type="text" id="email" name="email" placeholder="Your email..">
-
-<label for="message" id="labels">Message</label>
-<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-
-<input type="submit" id="button" value="Submit">
-
-</form>
+	<Contact />
 </template>
 
 <script>
-import AnimatedBackground51 from '@/components/AnimatedBackground51.vue';
+import Contact from '@/components/Contact.vue';
 import AOS from 'aos'
 
     export default {
         components: {
-            AnimatedBackground51
+            Contact
         },
 		mounted() {
             AOS.init();

@@ -1,13 +1,6 @@
 <template>
     <div class ="animation-area">
-        <div class="overall">
-          <div class="position-absolute top-50 start-50 translate-middle text-white" data-aos="fade-up"
-     data-aos-anchor-placement="center-center">
-            <h1>Kauthar Brandt</h1>
-          <p>Aspire to become a FullStack Developer</p>
-          </div>
-          
-      
+        <div class="overall">  
           <div class="welcome">
       <ul class ="box-area">
           <li>
@@ -78,7 +71,7 @@
           </li>
           </ul>
       </div>
-      </div>
+      </div>     
     </div>
 </template>
 
@@ -226,13 +219,4 @@
     0 0 400px rgba(0, 255, 0, 0.8)
     0 0 500px rgba(0, 255, 0, 0.1);
 }
-
-h1, p {
-  font-size: 30px;
-  color: orangered;
-}
-  
-
-  
-
 </style>

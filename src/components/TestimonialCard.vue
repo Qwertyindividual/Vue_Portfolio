@@ -1,9 +1,10 @@
 <template>
     <div v-for="testimonial in Testimonials" :key="testimonial" class="card p-2 m-5 mx-auto" data-aos="zoom-in" data-aos-duration="3000">
-      <div class="card mb-3" style="max-width: 540px;">
+      <div class="card mb-3 d-flex justify-content-evenly" style="max-width: 540px;">
+      
   <div class="row g-0">
     <div class="col-md-4">
-      <img :src="testimonial.image" class="img-fluid rounded-start " alt="...">
+      <img :src="testimonial.image" class="img-fluid rounded-start h-100 w-100" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -26,4 +27,10 @@ export default {
     },
 }
 </script>
+
+<style scoped>
+img {
+margin: auto;
+}
+</style>
 

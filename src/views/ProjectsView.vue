@@ -1,18 +1,18 @@
 <template>
-    
-    <AnimatedBackground4 />
+    <Project />
+    <ProjectsCard />
 </template>
 
 <script>
 
-import AnimatedBackground4 from '@/components/AnimatedBackground4.vue'
+import Project from '@/components/Project.vue'
 
 import ProjectsCard from '@/components/ProjectsCard.vue'
 import AOS from 'aos'
 
     export default {
        components: {
-        AnimatedBackground4,
+        Project,
         ProjectsCard
        },
        mounted() {

@@ -1,81 +1,83 @@
 <template>
-   <div class ="animation-area">
-        <div class="overall">
-          <div class="welcome">
-      <ul class ="box-area">
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          </ul>
+<div class="animation-area">
+    <div class="overall">
+
+  <ul class="box-area">
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
       </div>
+    </li>
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
       </div>
-    </div>
+    </li>
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
+    </li>
+  </ul>
+ </div>
+ <TestimonialCard/>
+      </div>
+
 </template>
 
 <script>
+import TestimonialCard from '@/components/TestimonialCard.vue'
     export default {
         name: 'AnimatedBackground'
     }
@@ -88,7 +90,6 @@
     width:100%;
     height: 1000px;
     background: black;
-    /* position: ; */
 }
 .box-area{
     position: absolute;

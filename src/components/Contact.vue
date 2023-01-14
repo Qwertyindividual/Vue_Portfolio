@@ -2,49 +2,6 @@
   <div class="animation-area">
     <div class="overall">
 
-      <!-- <form action="https://formspree.io/f/xdojpryw" method="POST" id="form">
-
-<label for="fname" id="labels">Your Name</label>
-<input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-<label for="cname" id="labels">Company Name</label>
-<input type="text" id="cname" name="companyname" placeholder="Your company name..">
-
-<label for="email" id="labels">Your Email</label>
-<input type="text" id="email" name="email" placeholder="Your email..">
-
-<label for="message" id="labels">Message</label>
-<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-
-<input type="submit" id="button" value="Submit">
-
-</form> -->
-      <!-- <div class="container mt-5 mb-5">
-			<div class="row">
-				<div class="col-md-12 col-4">
-					<div class="section-header text-center pb-5">
-						<h2>Contact Me</h2>
-						<div class="social d-flex justify-content-center">
-							<a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
-							<a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-							<a href="https://github.com/Qwertyindividual"><i class="fa-brands fa-github"></i></a>
-						</div>
-					</div>
-				</div>
-			</div> -->
-      <!-- <section class="contact section-padding bg-black" id="contact">
-			<div class="row m-0">
-				<div class="col-md-12 p-0 pt-4 pb-4"> -->
-
-
-    </div>
-
-  </div>
-  <!-- </div>
-	</section> -->
-
-
-
   <ul class="box-area">
     <li>
       <div class="cube">
@@ -113,8 +70,26 @@
       </div>
     </li>
   </ul>
-  <!-- </div>
-      </div> -->
+ </div>
+ <form action="https://formspree.io/f/xdojpryw" method="POST" id="form" class="position-absolute top-50 start-50 translate-middle">
+
+<label for="fname" id="labels">Your Name</label>
+<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+<label for="cname" id="labels">Company Name</label>
+<input type="text" id="cname" name="companyname" placeholder="Your company name..">
+
+<label for="email" id="labels">Your Email</label>
+<input type="text" id="email" name="email" placeholder="Your email..">
+
+<label for="message" id="labels">Message</label>
+<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+<input type="submit" id="button" value="Submit">
+
+</form>
+      </div>
+
 
 </template>
 
@@ -129,9 +104,8 @@ export default {
   background: linear-gradient(to bottom right, black, rgba(255, 0, 0, 0.4));
   background: fixed;
   width: 100%;
-  height: 1000px;
+  height: 900px;
   background: black;
-  position: absolute;
 }
 
 .box-area {
@@ -140,7 +114,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  
 }
 
 .box-area li {
@@ -275,6 +249,8 @@ export default {
   filter: blur(20px);
   box-shadow: 0 0 120px rgba(0, 255, 0, 0.2) 0 0 200px rgba(0, 255, 0, 0.4) 0 0 300px rgba(0, 255, 0, 0.6) 0 0 400px rgba(0, 255, 0, 0.8) 0 0 500px rgba(0, 255, 0, 0.1);
 }
+
+
 input[type=text], select, textarea {
 	width: 320px; 
 	padding: 12px;  
@@ -287,31 +263,32 @@ input[type=text], select, textarea {
 	margin-top: 6px; 
 	margin-bottom: 16px; 
 	resize: vertical;
+  box-shadow: inset 0 1rem 2rem rgba(0, 0, 0, .67);
   }
   
   input[type=submit] {
-	background:linear-gradient(to bottom right, rgb(238, 130, 177), rgb(42, 139, 121));
+	background: linear-gradient(to bottom right, red, blue); 
 	color: white;
 	padding: 13px 40px;
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
+  margin-top: 100px;
   }
-  
-  input[type=submit]:hover {
-	background-color: #d19cbd;
-  }
+
  #button {
 	margin-left: 130px;
+  margin-top:30px;
   }
   
   #form {
 	border-radius: 5px;
-	background-color: #e5d5ca;
+	background-color: white;
 	padding: 30px;
-	width: 400px;
-	box-shadow: 0 1rem 2rem rgba(0, 0, 0, .67);
+	width: 1000px;
+	/*box-shadow: inset 0 1rem 2rem rgba(0, 0, 0, .67);*/
   position: absolute;
+  
   }
   
   #form {

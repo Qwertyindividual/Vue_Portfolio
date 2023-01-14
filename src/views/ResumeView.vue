@@ -1,17 +1,17 @@
 <template>
     <div>
-     <AnimatedBackground3 />
+     <Resume />
     </div>
 </template>
 
 <script>
 
-import AnimatedBackground3 from '@/components/AnimatedBackground3.vue'
+import Resume from '@/components/Resume.vue'
 import AOS from 'aos'
 
     export default {
         components: {
-            AnimatedBackground3
+            Resume
         },
         mounted() {
         AOS.init();
