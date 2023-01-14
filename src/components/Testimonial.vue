@@ -79,7 +79,9 @@
 <script>
 import TestimonialCard from '@/components/TestimonialCard.vue'
     export default {
-        name: 'AnimatedBackground'
+      components: {
+        TestimonialCard
+      }
     }
 </script>
 
@@ -88,7 +90,7 @@ import TestimonialCard from '@/components/TestimonialCard.vue'
     background: linear-gradient(to bottom right, black, rgba(98, 0, 255, 0.4));
     background:fixed;
     width:100%;
-    height: 1000px;
+    height: 1300px;
     background: black;
 }
 .box-area{
@@ -96,7 +98,7 @@ import TestimonialCard from '@/components/TestimonialCard.vue'
     top:0;
     left:0;
     width:100%;
-    height: 100%;
+    height: 1000px;
 
     /* overflow: hidden; */
 }

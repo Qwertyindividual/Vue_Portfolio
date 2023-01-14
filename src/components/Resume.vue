@@ -1,83 +1,188 @@
 <template>
-   <div class ="animation-area">
-        <div class="overall">
-          <div class="welcome">
-      <ul class ="box-area">
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          </ul>
+<div class="animation-area">
+    <div class="overall">
+
+  <ul class="box-area">
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
       </div>
+    </li>
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
+    </li>
+  </ul>
+ </div>
+ <h3 id="education">Education</h3>
+ <div v-for="faculty in Testimonials" :key="faculty" class="p-2 m-5 mx-auto loop" data-aos="zoom-in" data-aos-duration="3000">
+  <div class="card mb-3 bg-transparent" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img :src="faculty.img" class="img-fluid rounded-start h-100" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{ faculty.faculty }}</h5>
+        <p class="card-text">{{ faculty.description }}</p>
+        <p class="card-text"><small class="text-muted">{{faculty.timeline}}</small></p>
       </div>
     </div>
+  </div>
+</div>
+  </div>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+      <h5>Technical skills</h5>
+                <div class="row">
+                  <div class="col-12"><p class="progresstext">
+                    HTML
+                    <span>%</span></p>
+                    <div class="progress bg-white" style="height: 8px;">
+                      <div class="progress-bar" style="width:80%; height: 8px;"></div>
+                    </div>               
+                  </div>
+                </div>
+                
+                
+                <div class="row">
+                  <div class="col-12"><p class="progresstext">
+                    CSS
+                    <span>%</span></p>
+                    <div class="progress bg-white" style="height: 8px;">
+                      <div class="progress-bar" style="width:90%; height: 8px;"></div>
+                    </div>               
+                  </div>
+                </div>
+                
+                
+                <div class="row">
+                  <div class="col-12"><p class="progresstext">
+                    Bootstrap
+                    <span>%</span></p>
+                    <div class="progress bg-white" style="height: 8px;">
+                      <div class="progress-bar" style="width:100%; height: 8px;"></div>
+                    </div>               
+                  </div>
+                </div>
+                
+                
+                <div class="row">
+                  <div class="col-12"><p class="progresstext">
+                    JavaScript
+                    <span>%</span></p>
+                    <div class="progress bg-white" style="height: 8px;">
+                      <div class="progress-bar" style="width:55%; height: 8px;"></div>
+                  </div>               
+                </div>
+              </div>
+              
+              
+              <div class="row">
+                <div class="col-12"><p class="progresstext">
+                  Vue
+                  <span>%</span></p>
+                  <div class="progress bg-white" style="height: 8px;">
+                    <div class="progress-bar" style="width:70%; height: 8px;"></div>
+                  </div>               
+                </div>
+              </div>
+            
+
+              <div class="row">
+                <div class="col-12"><p class="progresstext">
+                  Node.js
+                  <span>%</span></p>
+                  <div class="progress bg-white" style="height: 8px;">
+                    <div class="progress-bar" style="width:70%; height: 8px;"></div>
+                  </div>               
+                </div>   
+              </div>
+    </div>
+
+    <div class="col">
+      <h5>Soft Skills</h5>
+                  <ul>
+                    <li class="text-white">Problem-solving</li><br>
+                    <li class="text-white">Time Management</li><br>
+                    <li class="text-white">Stress Management</li><br>
+                    <li class="text-white">Adaptability</li><br>
+                    <li class="text-white">Active Listener</li><br>
+                    <li class="text-white">Team Player Attitude</li><br>
+                  </ul>
+
+    </div>
+   
+  </div>
+</div>
+      </div>
 </template>
 
 <script>
     export default {
-        
+      computed: {
+        Testimonials() {
+            return this.$store.state.resume
+        }
+    },
     }
 </script>
 
@@ -218,5 +323,26 @@
     0 0 300px rgba(0, 255, 0, 0.6)
     0 0 400px rgba(0, 255, 0, 0.8)
     0 0 500px rgba(0, 255, 0, 0.1);
+}
+.loop {
+  display: inline-block;
+}
+.card {
+  margin-right: 100px;
+  margin-left: 90px;
+  margin-top: 10px;
+  color:white;
+}
+
+h5{
+  color: orange;
+  font-family: monospace;
+}
+
+h3 {
+  color: orange;
+  font-family: monospace;
+  padding-top: 100px;
+  padding-left: 650px;
 }
 </style>

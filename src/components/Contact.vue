@@ -71,22 +71,65 @@
     </li>
   </ul>
  </div>
- <form action="https://formspree.io/f/xdojpryw" method="POST" id="form" class="position-absolute top-50 start-50 translate-middle">
+ <form>
+  <!-- 2 column grid layout with text inputs for the first and last names -->
+  <div class="row mb-4">
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form3Example1" class="form-control" />
+        <label class="form-label" for="form3Example1">First name</label>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form3Example2" class="form-control" />
+        <label class="form-label" for="form3Example2">Last name</label>
+      </div>
+    </div>
+  </div>
 
-<label for="fname" id="labels">Your Name</label>
-<input type="text" id="fname" name="firstname" placeholder="Your name..">
+  <!-- Email input -->
+  <div class="form-outline mb-4">
+    <input type="email" id="form3Example3" class="form-control" />
+    <label class="form-label" for="form3Example3">Email address</label>
+  </div>
 
-<label for="cname" id="labels">Company Name</label>
-<input type="text" id="cname" name="companyname" placeholder="Your company name..">
+  <!-- Password input -->
+  <div class="form-outline mb-4">
+    <input type="password" id="form3Example4" class="form-control" />
+    <label class="form-label" for="form3Example4">Password</label>
+  </div>
 
-<label for="email" id="labels">Your Email</label>
-<input type="text" id="email" name="email" placeholder="Your email..">
+  <!-- Checkbox -->
+  <div class="form-check d-flex justify-content-center mb-4">
+    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+    <label class="form-check-label" for="form2Example33">
+      Subscribe to our newsletter
+    </label>
+  </div>
 
-<label for="message" id="labels">Message</label>
-<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+  <!-- Submit button -->
+  <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
 
-<input type="submit" id="button" value="Submit">
+  <!-- Register buttons -->
+  <div class="text-center">
+    <p>or sign up with:</p>
+    <button type="button" class="btn btn-secondary btn-floating mx-1">
+      <i class="fab fa-facebook-f"></i>
+    </button>
 
+    <button type="button" class="btn btn-secondary btn-floating mx-1">
+      <i class="fab fa-google"></i>
+    </button>
+
+    <button type="button" class="btn btn-secondary btn-floating mx-1">
+      <i class="fab fa-twitter"></i>
+    </button>
+
+    <button type="button" class="btn btn-secondary btn-floating mx-1">
+      <i class="fab fa-github"></i>
+    </button>
+  </div>
 </form>
       </div>
 
@@ -104,7 +147,7 @@ export default {
   background: linear-gradient(to bottom right, black, rgba(255, 0, 0, 0.4));
   background: fixed;
   width: 100%;
-  height: 900px;
+  height: 712px;
   background: black;
 }
 
@@ -114,7 +157,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  
+  overflow: hidden;
 }
 
 .box-area li {
@@ -251,7 +294,7 @@ export default {
 }
 
 
-input[type=text], select, textarea {
+/* input[type=text], select, textarea {
 	width: 320px; 
 	padding: 12px;  
 	padding-left: 10px;
@@ -283,15 +326,15 @@ input[type=text], select, textarea {
   
   #form {
 	border-radius: 5px;
-	background-color: white;
+	background-color: transparent;
 	padding: 30px;
-	width: 1000px;
+	width: 400px;
 	/*box-shadow: inset 0 1rem 2rem rgba(0, 0, 0, .67);*/
-  position: absolute;
+  /* position: absolute; */
   
-  }
   
-  #form {
+  
+  /* #form {
 	padding-left: 0px;
 	margin: auto;
   }
@@ -322,5 +365,6 @@ input[type=text], select, textarea {
 .social a:hover{
     transform: scale(1.3);
     transition: .3s;
-}
+}  */
+
 </style>

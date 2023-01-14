@@ -47,6 +47,28 @@ export default createStore({
         },
         image: 'https://i.postimg.cc/fTQS8qCb/portfolio-pic.png'
        },
+       {
+        id:5,
+        title:'Flip Card',
+        tools:'CSS 3/HTML 5',
+        description:'This project is a combination of HTML5 and CSS3.',
+        links:{
+          github: 'https://github.com/Qwertyindividual/FlipCard',
+          live: 'https://flip-card-23.netlify.app/'
+        },
+        image: 'https://i.postimg.cc/pr1qdkzc/flipcard.png0'
+       },
+       {
+        id:6,
+        title:'3D-Card',
+        tools:'CSS 3/HTML 5',
+        description:'This project is a combination of HTML5 and CSS3.',
+        links:{
+          github: 'https://github.com/Qwertyindividual/3D-Card',
+          live: 'https://3d-card23.netlify.app/'
+        },
+        image: 'https://i.postimg.cc/Hk7ddhXK/3d-flipcard.png'
+       },
     ],
     testimonials:[
       {
@@ -74,7 +96,7 @@ export default createStore({
       {
         id:3,
         name:'Candice Amon',
-        relation: 'AUM',
+        relation: 'Course Leader',
         testimonial: 'Kauthar loves to work on her own. Has the ability to engage very well. She has the willingness to push herself out of her comfort zone in order to grow in all aspects.',
         links:{
           github: '',
@@ -120,12 +142,14 @@ export default createStore({
       {
         faculty: 'Life Choices Coding Academy',
         timeline: 'Sep-2022 - Current',
-        description: 'Currently learning the skills to become a full-stack web developer by implementing html, css, bootstrap, javascript, etc... into projects. '
+        description: 'Currently learning the skills to become a full-stack web developer by implementing html, css, bootstrap, javascript, etc... into projects. ',
+        img: 'https://i.postimg.cc/Gt9KN2ps/life-choices.png'
       },
       {
         faculty: 'Mondale High School',
         timeline: '2016 - 2020',
-        description: 'Majored in Physical Sciences, Mathematics, Life Sciences, Geography and passed Matric in the year 2021 with a Bachelor Pass'        
+        description: 'Majored in Physical Sciences, Mathematics, Life Sciences, Geography and passed Matric in the year 2021 with a Bachelor Pass',
+        img: 'https://i.postimg.cc/tTvthjzR/mondale-high-school.png'      
       }
     ]
   },

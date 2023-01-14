@@ -1,10 +1,9 @@
 <template>
-    <div v-for="testimonial in Testimonials" :key="testimonial" class="card p-2 m-5 mx-auto" data-aos="zoom-in" data-aos-duration="3000">
-      <div class="card mb-3 d-flex justify-content-evenly" style="max-width: 540px;">
-      
+    <div v-for="testimonial in Testimonials" :key="testimonial" class="p-2 m-5 mx-auto loop" data-aos="zoom-in" data-aos-duration="3000" style="height: 18rem;">
+      <div class="card h-100 mb-3" style="max-width: 600px;">
   <div class="row g-0">
     <div class="col-md-4">
-      <img :src="testimonial.image" class="img-fluid rounded-start h-100 w-100" alt="...">
+      <img :src="testimonial.image" class="img-fluid rounded-start h-100" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -15,7 +14,7 @@
     </div>
   </div>
 </div>
-    </div>
+</div>
 </template>
 
 <script>
@@ -29,8 +28,15 @@ export default {
 </script>
 
 <style scoped>
-img {
-margin: auto;
+.loop {
+  display: inline-flex;
+}
+.card {
+  background: transparent;
+  color: white;
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-right: 40px;
 }
 </style>
 

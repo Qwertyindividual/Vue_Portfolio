@@ -1,6 +1,5 @@
 <template>
     <Project />
-    <ProjectsCard />
 </template>
 
 <script>

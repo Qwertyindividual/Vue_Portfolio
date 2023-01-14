@@ -1,15 +1,15 @@
 <template>
-      <div v-for="id in projects" :key="id" class="card p-2 m-5 mx-auto" data-aos="zoom-in" data-aos-duration="3000">
+      <div v-for="id in Projects" :key="id" class="p-2 m-5 mx-auto loop" data-aos="zoom-in" data-aos-duration="3000">
       <div class="card mb-3" style="max-width: 540px;">
   <div class="row g-0">
     <div class="col-md-4">
-      <img :src="projects.image" class="img-fluid rounded-start " alt="...">
+      <img :src="id.image" class="img-fluid rounded-start h-100" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title" data-aos="zoom-in" data-aos-duration="2000">{{ projects.title }}</h5>
-        <p class="card-text" data-aos="zoom-in" data-aos-duration="2000">{{ projects.description }}</p>
-        <p class="card-text" data-aos="fade-right" data-aos-duration="3000"><small class="text-muted">{{ projects.tools }}</small></p>
+        <h5 class="card-title" data-aos="zoom-in" data-aos-duration="2000">{{ id.title }}</h5>
+        <p class="card-text" data-aos="zoom-in" data-aos-duration="2000">{{ id.description }}</p>
+        <p class="card-text" data-aos="fade-right" data-aos-duration="3000"><small class="text-muted">{{ id.tools }}</small></p>
       </div>
     </div>
   </div>
@@ -26,3 +26,17 @@ export default {
     },
 }
 </script>
+
+<style scoped>
+.loop {
+  display: inline-flex;
+}
+
+.card {
+  background: transparent;
+  color: white;
+  margin-top: 150px;
+  margin-left: 80px;
+  margin-right: 60px;
+}
+</style>

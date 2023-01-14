@@ -1,85 +1,85 @@
 <template>
-    <div class ="animation-area">
-        <div class="overall">
-          <div class="welcome">
-      <ul class ="box-area">
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="cube">
-              <div class="top"></div>
-              <div>
-              <span style="--i:0"></span>
-              <span style="--i:1"></span>
-              <span style="--i:2"></span>
-              <span style="--i:3"></span>
-              </div>
-            </div>
-          </li>
-          </ul>
+<div class="animation-area">
+    <div class="overall">
+
+  <ul class="box-area">
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
       </div>
+    </li>
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
       </div>
-    </div>
+    </li>
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="cube">
+        <div class="top"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
+    </li>
+  </ul>
+ </div>
+ <ProjectsCard/>
+      </div>
 </template>
 
 <script>
-
+import ProjectsCard from '@/components/ProjectsCard.vue'
     export default {
       components: {
-       
+       ProjectsCard
       }
         
     }
@@ -90,7 +90,7 @@
     background: linear-gradient(to bottom right, black, rgba(255, 89, 0, 0.4));
     background:fixed;
     width:100%;
-    height: 1000px;
+    height: 1300px;
     background: black;
     /* position: fixed; */
 }
@@ -99,7 +99,7 @@
     top:0;
     left:0;
     width:100%;
-    height: 100%;
+    height: 1000px;
     /* overflow: hidden; */
 }
 .box-area li{
@@ -222,5 +222,8 @@
     0 0 300px rgba(0, 255, 0, 0.6)
     0 0 400px rgba(0, 255, 0, 0.8)
     0 0 500px rgba(0, 255, 0, 0.1);
+}
+.card {
+  display: inline-block;
 }
 </style>

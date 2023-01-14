@@ -1,6 +1,5 @@
 <template>
     <Testimonial />
-    <TestimonialCard/>
 </template>
 
 <script>
