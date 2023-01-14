@@ -71,64 +71,38 @@
     </li>
   </ul>
  </div>
- <form>
+ <form action="https://formspree.io/f/mrgvbgjz" method="POST">
   <!-- 2 column grid layout with text inputs for the first and last names -->
-  <div class="row mb-4">
-    <div class="col">
+
+  <div class="row mb-4 container">
+    <div class="col-6">
       <div class="form-outline">
-        <input type="text" id="form3Example1" class="form-control" />
+        <input type="text" id="form3Example1" class="form-control bg-transparent" placeholder="FirstName" />
         <label class="form-label" for="form3Example1">First name</label>
       </div>
     </div>
-    <div class="col">
+    <div class="col-6">
       <div class="form-outline">
-        <input type="text" id="form3Example2" class="form-control" />
+        <input type="text" id="form3Example2" class="form-control bg-transparent" placeholder="LastName" />
         <label class="form-label" for="form3Example2">Last name</label>
       </div>
     </div>
-  </div>
-
-  <!-- Email input -->
-  <div class="form-outline mb-4">
-    <input type="email" id="form3Example3" class="form-control" />
-    <label class="form-label" for="form3Example3">Email address</label>
-  </div>
-
-  <!-- Password input -->
-  <div class="form-outline mb-4">
-    <input type="password" id="form3Example4" class="form-control" />
-    <label class="form-label" for="form3Example4">Password</label>
-  </div>
-
-  <!-- Checkbox -->
-  <div class="form-check d-flex justify-content-center mb-4">
-    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
-    <label class="form-check-label" for="form2Example33">
-      Subscribe to our newsletter
-    </label>
-  </div>
-
-  <!-- Submit button -->
-  <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
-
-  <!-- Register buttons -->
-  <div class="text-center">
-    <p>or sign up with:</p>
-    <button type="button" class="btn btn-secondary btn-floating mx-1">
-      <i class="fab fa-facebook-f"></i>
-    </button>
-
-    <button type="button" class="btn btn-secondary btn-floating mx-1">
-      <i class="fab fa-google"></i>
-    </button>
-
-    <button type="button" class="btn btn-secondary btn-floating mx-1">
-      <i class="fab fa-twitter"></i>
-    </button>
-
-    <button type="button" class="btn btn-secondary btn-floating mx-1">
-      <i class="fab fa-github"></i>
-    </button>
+    <div class="col-6">
+     <label for="number" class="form-label">Cellphone number:</label>
+               <input type="text" name="name" class="form-control bg-transparent" id="cards_" placeholder="Cellphone number" aria-label="Cellphone number">
+    </div>
+    <div class="col-6">
+      <div class="form-outline">
+       <label for="email" class="form-label">Email address:</label>
+               <input type="email" name="email" class="form-control bg-transparent" id="cards_" placeholder="name@example.com">
+      </div>
+    <div class="col-12">
+    <button type="submit" class="btn btn-danger submit bg-transparent">Submit</button>
+   
+      </div>
+        
+     
+    </div>
   </div>
 </form>
       </div>
@@ -147,7 +121,7 @@ export default {
   background: linear-gradient(to bottom right, black, rgba(255, 0, 0, 0.4));
   background: fixed;
   width: 100%;
-  height: 712px;
+  height: 636px;
   background: black;
 }
 
@@ -293,78 +267,17 @@ export default {
   box-shadow: 0 0 120px rgba(0, 255, 0, 0.2) 0 0 200px rgba(0, 255, 0, 0.4) 0 0 300px rgba(0, 255, 0, 0.6) 0 0 400px rgba(0, 255, 0, 0.8) 0 0 500px rgba(0, 255, 0, 0.1);
 }
 
+.container {
+padding-top: 200px;
 
-/* input[type=text], select, textarea {
-	width: 320px; 
-	padding: 12px;  
-	padding-left: 10px;
-	position: relative;
-	margin-left: 40px;
-	border: 1px solid #ccc; 
-	border-radius: 4px;
-	box-sizing: border-box; 
-	margin-top: 6px; 
-	margin-bottom: 16px; 
-	resize: vertical;
-  box-shadow: inset 0 1rem 2rem rgba(0, 0, 0, .67);
-  }
-  
-  input[type=submit] {
-	background: linear-gradient(to bottom right, red, blue); 
-	color: white;
-	padding: 13px 40px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-  margin-top: 100px;
-  }
-
- #button {
-	margin-left: 130px;
-  margin-top:30px;
-  }
-  
-  #form {
-	border-radius: 5px;
-	background-color: transparent;
-	padding: 30px;
-	width: 400px;
-	/*box-shadow: inset 0 1rem 2rem rgba(0, 0, 0, .67);*/
-  /* position: absolute; */
-  
-  
-  
-  /* #form {
-	padding-left: 0px;
-	margin: auto;
-  }
-  
-  #labels {
-	padding-left: 40px;
-  }
-  
-  .social{
-    display: flex;
-	
 }
-.social a{
-    width: 45px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:linear-gradient(to bottom right, rgb(0, 191, 255), rgb(255, 0, 238));
-    border-radius: 50%;
-    margin: 22px 10px;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    border: double;
-    box-shadow: 0 0 0 5px black, 0 0 0 7px rgb(0, 255, 234);
+form {
+margin-left: 100px;
 }
-.social a:hover{
-    transform: scale(1.3);
-    transition: .3s;
-}  */
+.submit {
+margin-left: 77%;
+margin-top: 50px;
+padding: 10px 40px;
+}
 
 </style>

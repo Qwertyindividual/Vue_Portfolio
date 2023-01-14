@@ -71,7 +71,7 @@
           </li>
           </ul>
           
-          <div class="container about">
+          <div class="container about" data-aos="zoom-in" data-aos-duration="3000">
             <div class="row">
                <div class="col-md-5 m-0">
                 <img src="../assets/img/vue-icon.png" alt="">
@@ -90,6 +90,10 @@
                       <div>
                         <li class="text-white">Watching Anime</li>
                         <li class="text-white">Cooking</li>
+                      </div>
+                      <div>
+                        <li class="text-white">Reading</li>
+                        <li class="text-white">Writing</li>
                       </div>
                     </ul>              
                   </div>
@@ -116,17 +120,16 @@
     background: linear-gradient(to bottom right, black, rgba(0, 255, 229, 0.4));
     background:fixed;
     width:100%;
-    height: 1100px;
+    height: 600px;
     background: black;
-    /* position: fixed; */
 }
 .box-area{
     position: absolute;
     top:0;
     left:0;
     width:100%;
-    height: 100%;
-    /* overflow: hidden; */
+    height: 600px;
+    overflow: hidden;
 }
 .box-area li{
     position: absolute;
@@ -260,7 +263,7 @@ h5 {
 }
 
 .about {
-  padding: 300px 0 0 0 ;
+  padding: 100px 0 0 0 ;
 }
 h1, h2 {
 color: orange;

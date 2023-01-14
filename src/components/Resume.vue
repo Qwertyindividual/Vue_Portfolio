@@ -90,10 +90,10 @@
   </div>
   <div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col pr-5">
       <h5>Technical skills</h5>
                 <div class="row">
-                  <div class="col-12"><p class="progresstext">
+                  <div class="col-12 mb-2"><p class="progresstext">
                     HTML
                     <span>%</span></p>
                     <div class="progress bg-white" style="height: 8px;">
@@ -104,7 +104,7 @@
                 
                 
                 <div class="row">
-                  <div class="col-12"><p class="progresstext">
+                  <div class="col-12 mb-2"><p class="progresstext">
                     CSS
                     <span>%</span></p>
                     <div class="progress bg-white" style="height: 8px;">
@@ -115,7 +115,7 @@
                 
                 
                 <div class="row">
-                  <div class="col-12"><p class="progresstext">
+                  <div class="col-12 mb-2"><p class="progresstext">
                     Bootstrap
                     <span>%</span></p>
                     <div class="progress bg-white" style="height: 8px;">
@@ -126,7 +126,7 @@
                 
                 
                 <div class="row">
-                  <div class="col-12"><p class="progresstext">
+                  <div class="col-12 mb-2"><p class="progresstext">
                     JavaScript
                     <span>%</span></p>
                     <div class="progress bg-white" style="height: 8px;">
@@ -137,7 +137,7 @@
               
               
               <div class="row">
-                <div class="col-12"><p class="progresstext">
+                <div class="col-12 mb-2"><p class="progresstext">
                   Vue
                   <span>%</span></p>
                   <div class="progress bg-white" style="height: 8px;">
@@ -148,7 +148,7 @@
             
 
               <div class="row">
-                <div class="col-12"><p class="progresstext">
+                <div class="col-12 mb-2"><p class="progresstext">
                   Node.js
                   <span>%</span></p>
                   <div class="progress bg-white" style="height: 8px;">
@@ -158,15 +158,15 @@
               </div>
     </div>
 
-    <div class="col">
+    <div class="col pl-5">
       <h5>Soft Skills</h5>
                   <ul>
+                    <li class="text-white">Team Player Attitude</li><br>
+                    <li class="text-white">Adaptability</li><br>
                     <li class="text-white">Problem-solving</li><br>
                     <li class="text-white">Time Management</li><br>
                     <li class="text-white">Stress Management</li><br>
-                    <li class="text-white">Adaptability</li><br>
                     <li class="text-white">Active Listener</li><br>
-                    <li class="text-white">Team Player Attitude</li><br>
                   </ul>
 
     </div>
@@ -328,9 +328,8 @@
   display: inline-block;
 }
 .card {
-  margin-right: 100px;
   margin-left: 90px;
-  margin-top: 10px;
+  padding-top: 10px;
   color:white;
 }
 
@@ -344,5 +343,9 @@ h3 {
   font-family: monospace;
   padding-top: 100px;
   padding-left: 650px;
+}
+
+.progresstext {
+color: white;
 }
 </style>

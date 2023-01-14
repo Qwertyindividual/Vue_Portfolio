@@ -35,8 +35,8 @@ export default {
 .card {
   background: transparent;
   color: white;
-  margin-top: 150px;
-  margin-left: 80px;
-  margin-right: 60px;
+  padding-top: 70px;
+  padding-left: 80px;
+  padding-right: 60px;
 }
 </style>

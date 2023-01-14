@@ -1,5 +1,5 @@
 <template>
-    <div v-for="testimonial in Testimonials" :key="testimonial" class="p-2 m-5 mx-auto loop" data-aos="zoom-in" data-aos-duration="3000" style="height: 18rem;">
+    <div v-for="testimonial in Testimonials" :key="testimonial" class="loop" data-aos="zoom-in" data-aos-duration="3000" style="height: 18rem;">
       <div class="card h-100 mb-3" style="max-width: 600px;">
   <div class="row g-0">
     <div class="col-md-4">
@@ -30,13 +30,14 @@ export default {
 <style scoped>
 .loop {
   display: inline-flex;
+  padding-top:100px;
 }
 .card {
   background: transparent;
   color: white;
-  margin-top: 50px;
-  margin-left: 70px;
-  margin-right: 40px;
-}
+  padding-top: 50px;
+  padding-left:30px;
+ }
+
 </style>
 

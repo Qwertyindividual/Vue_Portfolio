@@ -117,17 +117,6 @@ export default createStore({
       },
       {
         id:5,
-        name:'Seaba Mafestire',
-        relation: 'Colleague',
-        testimonial: 'Kauthar is a free spirit who works hard to achieve her goals and puts her all in her work and a good team player.',
-        links:{
-          github: 'seabaraven@gmail.com',
-          socials: 'seabaraven@gmail.com'
-        },
-        image: 'https://i.postimg.cc/rmbN1TTN/seaba.jpg',
-      },           
-      {
-        id:6,
         name:'Keren Bruce',
         relation: 'Colleague',
         testimonial: 'Kauthar is a determined and energetic worker who strives to achieve her goals in the most efficient way possible . Her personality lights up any conversation she participates in and is surely a lovely presence to have in the workplace .',
@@ -136,7 +125,19 @@ export default createStore({
           socials: 'https://www.instagram.com/kerenkittybruce/'
         },
         image: 'https://i.postimg.cc/Xv0QF8nD/keren.jpg',
-      }             
+      },
+      {
+        id:6,
+        name:'Seaba Mafestire',
+        relation: 'Colleague',
+        testimonial: 'Kauthar is a free spirit who works hard to achieve her goals and puts her all in her work and a good team player.',
+        links:{
+          github: 'seabaraven@gmail.com',
+          socials: 'seabaraven@gmail.com'
+        },
+        image: 'https://i.postimg.cc/rmbN1TTN/seaba.jpg',
+      }           
+             
     ],
     resume:[
       {

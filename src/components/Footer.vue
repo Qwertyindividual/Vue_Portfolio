@@ -78,4 +78,24 @@ footer {
  color:white;
  }
 
+@media (max-width: 880px) {
+footer {
+display: hidden;
+}
+
+p {
+padding: 40px;
+background: linear-gradient(to bottom right, red, blue, green, orange, purple);
+}
+}
+@media (max-width: 320px) {
+footer {
+display: hidden;
+}
+
+p {
+padding: 40px;
+background: linear-gradient(to bottom right, red, blue, green, orange, purple);
+}
+}
 </style>
